@@ -69,7 +69,12 @@ button:active{
     color: #38a1f3;
 
 }
-
+.whatsapp-button:hover:hover{
+    color:rgb(115, 180, 115) ; 
+}
+.facebookbtn:hover{
+    color:#38a1f3 ;
+}
 /* Media query: */
 @media screen and (max-width: 1000px) {
     .quote-text{
@@ -80,3 +85,10 @@ button:active{
     }
     
 }
+
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
